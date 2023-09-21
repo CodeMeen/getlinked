@@ -1,13 +1,60 @@
+:root{
+--gradient:linear-gradient(to right,#FE34B9,#903AFF);
+--dark: #150E28;
+--normal: #903AFF;
+--light: #D434FE;
+--lighttwo:#FE34B9;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: clash_display_bold;
+  src: url('./assets/fonts/ClashDisplay/ClashDisplay-Bold.ttf');
+}
+
+
+@font-face {
+  font-family: montserrat_regular;
+  src: url('./assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: montserrat_bold_italic;
+  src: url('./assets/fonts/Montserrat/Montserrat-BoldItalic.ttf');
+}
+
+
+@font-face {
+  font-family: montserrat_bold;
+  src: url('./assets/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+
+@font-face {
+  font-family: unica_one;
+  src: url('./assets/fonts/Unica_One/UnicaOne-Regular.ttf');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--dark) !important;
+  font-family: montserrat_regular;
+  overflow-x: hidden !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button{
+  font-family: montserrat_regular;
+}
+
+
