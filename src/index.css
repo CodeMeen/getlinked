@@ -33,6 +33,12 @@
   src: url('./assets/fonts/Montserrat/Montserrat-Bold.ttf');
 }
 
+@font-face {
+  font-family: montserrat_semibold;
+  src: url('./assets/fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+
 
 @font-face {
   font-family: unica_one;
@@ -55,6 +61,10 @@ code {
 
 button{
   font-family: montserrat_regular;
+}
+
+a{
+  text-decoration: none;
 }
 
 
