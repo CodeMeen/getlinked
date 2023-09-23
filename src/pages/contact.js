@@ -1,9 +1,35 @@
-import "../components/contact/style.css";
+import { useState } from "react";
+import "../components/contact/style.scss";
 
 function Contact() {
+
+  const [formData, setFormData] = useState({name: "",email: "",message: ""});
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // alert(`Name: ${formData.name}, Email: ${formData.email}, Message: ${formData.message}`
+    // );
+};
+
+
   return (
     <div className="contactPage">
-      <div className="backlayer"></div>
+      <div className="backlayer">
+        <div className="gradientOne"></div>
+        <div className="gradientTwo"></div>
+
+        <div className="st starOne"></div>
+        <div className="st starTwo"></div>
+        <div className="st starThree"></div>
+        <div className="st starFour"></div>
+
+
+      </div>
 
       <div className="grid">
 
@@ -55,13 +81,15 @@ function Contact() {
                 Let us know  about it!</div>
 
 
-                <input className="input" placeholder="First Name"/> 
+                <input className="input" type="text" placeholder="First Name" id="name" name="name" value={formData.name} onChange={handleChange}/> 
 
-                <input className="input" placeholder="First Name"/>
+                <input className="input" placeholder="Mail" type="email" id="email" name="email" value={formData.email} onChange={handleChange} />
 
-                <textarea className="textarea" placeholder="Message">
+                <textarea className="textarea" placeholder="Message" type="text" id="message" name="message" value={formData.message} onChange={handleChange}>
                 </textarea>
 
+
+              <div className="register_btn" onClick={handleSubmit}>Submit</div>
 
             </div>
 

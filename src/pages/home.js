@@ -1,4 +1,4 @@
-import "../components/home/style.css";
+import "../components/home/style.scss";
 
 
 import Head from "../components/home/head";

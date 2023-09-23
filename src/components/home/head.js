@@ -16,12 +16,20 @@ function Head() {
           <div className="st starTwo"></div>
           <div className="st starThree"></div>
 
-          <span className="textgh">
-            <div>Igniting a Revolution in HR Innovation</div>
+          </div>
+
+       
+
+          <div className="frontlayer">
+
+
+          <div className="textgh">
+            <div className="vb">Igniting a Revolution in HR Innovation</div>
             <div className="bentline"></div>
-          </span>
-        </div>
-        <span className="containerOne">
+          </div>
+         
+       
+        <div className="containerOne">
           <div className="relative_box">
             <div className="bulb"></div>
             <div className="gtext">getlinkedTech</div>
@@ -55,7 +63,7 @@ function Head() {
               <span className="oo_t">S</span>
             </div>
           </div>
-        </span>
+        </div>
 
         <div className="containerTwo">
           <div className="relative_box">
@@ -63,6 +71,11 @@ function Head() {
             <div className="circle_sparkles"></div>
           </div>
         </div>
+          </div>
+
+   
+
+
       </div>
         </>
     )

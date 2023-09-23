@@ -2,7 +2,7 @@ function BodyFive() {
 
     return (
         <>
-  <div className="bodyFive">
+  <div className="bd bodyFive">
         <div className="backlayer">
           <div className="st starOne"></div>
           <div className="st starTwo"></div>
@@ -143,7 +143,130 @@ function BodyFive() {
               </span>
             </div>
           </div>
+
+          <div className="de_grid_mobile">
+            
+          <div className="each_line">
+              <div className="circ firstcirc">1</div>
+            </div>
+
+            <div className="textshii one">
+              <span className="gtext colortext">Hackathon Announcement</span>
+              <br />
+              <br />
+              <span className="rtext">
+              The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register
+              </span>
+
+              <br />
+
+              <span className="gtext colortext">November 18, 2023</span>
+            </div>
+
+
+
+            <div className="each_line">
+              <div className="circ firstcirc">2</div>
+            </div>
+
+            <div className="textshii one">
+              <span className="gtext colortext">Hackathon Announcement</span>
+              <br />
+              <br />
+              <span className="rtext">
+              The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register
+              </span>
+
+              <br />
+
+              <span className="gtext colortext">November 18, 2023</span>
+            </div>
+
+
+
+
+
+            <div className="each_line">
+              <div className="circ firstcirc">3</div>
+            </div>
+
+            <div className="textshii one">
+              <span className="gtext colortext">Hackathon Announcement</span>
+              <br />
+              <br />
+              <span className="rtext">
+              The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register
+              </span>
+
+              <br />
+
+              <span className="gtext colortext">November 18, 2023</span>
+            </div>
+
+
+
+            <div className="each_line">
+              <div className="circ firstcirc">4</div>
+            </div>
+
+            <div className="textshii one">
+              <span className="gtext colortext">Hackathon Announcement</span>
+              <br />
+              <br />
+              <span className="rtext">
+              The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register
+              </span>
+
+              <br />
+
+              <span className="gtext colortext">November 18, 2023</span>
+            </div>
+
+
+
+            <div className="each_line">
+              <div className="circ firstcirc">5</div>
+            </div>
+
+            <div className="textshii one">
+              <span className="gtext colortext">Hackathon Announcement</span>
+              <br />
+              <br />
+              <span className="rtext">
+              The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register
+              </span>
+
+              <br />
+
+              <span className="gtext colortext">November 18, 2023</span>
+            </div>
+
+
+
+            <div className="each_line">
+              <div className="circ firstcirc">6</div>
+            </div>
+
+            <div className="textshii one">
+              <span className="gtext colortext">Hackathon Announcement</span>
+              <br />
+              <br />
+              <span className="rtext">
+              The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register
+              </span>
+
+              <br />
+
+              <span className="gtext colortext">November 18, 2023</span>
+            </div>
+
+
+          
+          </div>
+
         </div>
+
+
       </div>
 
 

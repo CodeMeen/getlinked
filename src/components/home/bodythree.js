@@ -2,7 +2,7 @@ function BodyThree() {
 
     return (
         <>
-     <div className="bodyThree">
+     <div className="bd bodyThree">
         <div className="backlayer">
           <div className="st starOne"></div>
 

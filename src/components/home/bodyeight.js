@@ -5,7 +5,7 @@ function BodyEight() {
     return (
         <>
  
- <div className="bodyEight">
+ <div className="bd bodyEight">
       <div className="backlayer">
 
 <div className="st starOne"></div>
@@ -46,11 +46,12 @@ function BodyEight() {
 
           <div className="others">
           <div className="rtext">
-    At getlinked tech Hackathon 1.0, we value your privacy
-and are committed to protecting your personal information.
+      At getlinked tech Hackathon 1.0, we value your privacy
+and are committed to protecting your personal information.<br/> &nbsp;&nbsp;
 This Privacy Policy outlines how we collect, use, disclose, 
 and safeguard your data when you participate in our tech 
-hackathon event. By participating in our event, you consent 
+hackathon event.<br/><br/>
+ &nbsp;&nbsp;By participating in our event, you consent 
 to the practices described in this policy.
     </div>
 

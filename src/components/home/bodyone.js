@@ -2,7 +2,7 @@ function BodyOne() {
 
     return (
         <>
-      <div className="bodyOne">
+      <div className=" bd bodyOne">
         <div className="backlayer">
           <div className="st starOne"></div>
           <div className="rough_arrow"></div>

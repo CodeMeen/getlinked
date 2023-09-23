@@ -17,6 +17,12 @@
 
 
 @font-face {
+  font-family: clash_display_semibold;
+  src: url('./assets/fonts/ClashDisplay/ClashDisplay-Semibold.ttf');
+}
+
+
+@font-face {
   font-family: montserrat_regular;
   src: url('./assets/fonts/Montserrat/Montserrat-Regular.ttf');
 }
@@ -65,6 +71,14 @@ button{
 
 a{
   text-decoration: none;
+}
+
+input, textarea{
+  font-family: montserrat_regular;
+}
+
+select{
+  font-family: montserrat_regular;
 }
 
 

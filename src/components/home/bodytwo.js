@@ -2,7 +2,7 @@ function BodyTwo() {
 
     return (
         <>
-       <div className="bodyTwo">
+       <div className=" bd bodyTwo">
         <div className="backlayer">
           <div className="st starOne"></div>
 

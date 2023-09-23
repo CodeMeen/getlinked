@@ -3,7 +3,7 @@ function Footer() {
     return (
         <>
  
- <div className="footer">
+ <div className="ft footer">
 
 <div className="backlayer">
 <div className="st starOne"></div>
