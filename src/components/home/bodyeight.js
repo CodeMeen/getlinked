@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function BodyEight() {
 
     return (
@@ -77,7 +79,7 @@ sites, for your project development</div>
     </div>
 
 
-    <div className="register_btn">Read More</div>
+    <Link to='/signup'>  <div className="register_btn">Read More</div> </Link>
      
 
 

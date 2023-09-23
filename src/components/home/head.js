@@ -21,24 +21,6 @@ function Head() {
             <div className="bentline"></div>
           </span>
         </div>
-
-        <div className="header">
-          <div className="textlogo">
-            <span className="whitetext">get</span>
-            <span className="colortext">linked</span>
-          </div>
-
-          <div className="header_menu">
-            <div className="each_menu">Timeline</div>
-            <div className="each_menu">Overview</div>
-            <div className="each_menu">FAQs</div>
-            
-            <Link to='/contact'><div className="each_menu">Contact</div></Link>
-
-            <button className="register_btn">Register</button>
-          </div>
-        </div>
-
         <span className="containerOne">
           <div className="relative_box">
             <div className="bulb"></div>
@@ -57,7 +39,7 @@ function Head() {
             win a Big prize
           </span>
 
-          <button className="register_btn">Register</button>
+          <Link to='/signup'>  <button className="register_btn">Register</button> </Link>
 
           <div className="timer_container">
             <div>

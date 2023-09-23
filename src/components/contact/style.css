@@ -1,0 +1,98 @@
+
+/* Contact Page Stylings */
+.contactPage{
+ height:100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ .grid{
+    width:78.25%;
+    margin:0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ } 
+
+
+ .gtext{
+    font-size: 32px;
+    font-family: clash_display_bold;
+    color:var(--light)
+ }
+
+ .textOne{
+    padding:50px;
+ }
+
+ .rtext{
+    color:#fff;
+    font-size: 16px;
+    margin: 20px 0px;
+ }
+
+ .s_flex{
+    display: flex;
+    color:white;
+    font-size: 14px;
+    justify-content: left;
+    align-items: center;
+    margin:40px 0px;
+  }
+
+  .colort{
+    color: var(--light);
+    font-family: montserrat_regular;
+    font-size:14px;
+    margin:30px 0px;
+  }
+
+  .s_icon{
+    height:24px;
+    width:24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right:10px;
+    cursor: pointer;
+  }
+
+  .ig{
+    background-image: url('../../assets/graphics/ig.svg');
+  }
+
+  .x{
+    background-image: url('../../assets/graphics/x.svg');
+  }
+
+  .fb{
+    background-image: url('../../assets/graphics/f.svg');
+  }
+
+  .in{
+    background-image: url('../../assets/graphics/in.svg');
+  }
+
+
+  .inputBox{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding:50px 0px;
+    justify-content: center;
+
+    .input, .textarea{
+        width: 100%;
+    }
+   
+    .mid{
+        width: 80%;
+    }
+
+
+  }
+
+
+
+}
+
+/* End of contact page styles */

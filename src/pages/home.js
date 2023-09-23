@@ -1,4 +1,6 @@
-import "../App.css";
+import "../components/home/style.css";
+
+
 import Head from "../components/home/head";
 import BodyOne from "../components/home/bodyone";
 import BodyTwo from "../components/home/bodytwo";
