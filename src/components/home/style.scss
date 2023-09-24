@@ -248,11 +248,58 @@
            background-size: contain;
            background-repeat: no-repeat;
            position: absolute;
+           background-position: center center;
            z-index: 0;
-           left:21%;
-           top:-10px;
+           left:22%;           top:0px;
            opacity: 0.8;
+           z-index: -1 !important;
+           animation-name: rotateplus !important;
+      animation-duration: 2s !important;
+     animation-iteration-count: infinite !important;
+     transition: 2s ease;
+ 
            }
+
+        
+         
+     
+      
+          @keyframes rotateplus {
+
+            0%{
+             
+            }
+
+
+            20%{
+
+            }
+
+
+            40%{
+
+            }
+
+            60%{
+
+            }
+
+            80%{
+
+            }
+
+
+            100%{
+
+            }
+           
+          }
+
+
+
+
+
+
     
         }
     
