@@ -1810,7 +1810,7 @@ opacity: 0;
       from {opacity: 0;
         scale:0.3;
       }
-      to {opacity: 1;
+      to {opacity: 0.8;
       scale:1;}
     }
 
@@ -2550,8 +2550,10 @@ margin-top:-70px;
   }
 
   .homePage .head .bentline{
-    width:70%;
-    display: none;
+    width:60%;
+    display: block;
+    float: none;
+    margin:0px auto;
   }
 
 
@@ -2561,7 +2563,7 @@ margin-top:-70px;
 
   .homePage .head .textgh{
    
-    font-size: 14px ;
+    font-size: 18px ;
    text-align: center;
    left:0;
    right: 0;
