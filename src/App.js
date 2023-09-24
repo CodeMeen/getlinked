@@ -5,10 +5,16 @@ import Contact from "./pages/contact";
 import SignUp from "./pages/signup";
 import { useEffect } from "react";
 
+
 function App() {
 
 
   useEffect(()=>{
+
+// Init Animate on Scroll
+   Aos.init();
+
+
     // Star Animation
 var i;
 var star = document.getElementsByClassName("st").length;

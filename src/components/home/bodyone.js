@@ -14,14 +14,14 @@ function BodyOne() {
 
           <div className="textspace">
             <div>
-              <span className="gtext">Introduction to getlinked</span>
+              <span className="gtext" data-aos="fade-up">Introduction to getlinked</span>
               <br />
-              <span className="gtext colortext">techHackathon 1.0</span>
+              <span className="gtext colortext" data-aos="fade-up">techHackathon 1.0</span>
 
               <br />
               <br />
 
-              <div className="rtext">
+              <div className="rtext" data-aos="fade-up">
                 Our tech hackathon is a melting pot of visionaries, and its
                 purpose is as clear as day: to shape the future. Whether you're
                 a coding genius, a design maverick, or a concept wizard, you'll
