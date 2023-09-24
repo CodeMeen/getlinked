@@ -101,7 +101,7 @@
         }
        
         .mid{
-            width: 70%;
+            width: 85%;
         }
     
         .title{
@@ -394,7 +394,16 @@
  
  @media only screen and (max-width: 1320px) {
  
- 
+  .signUpPage .grid{
+    width: 100%;
+    gap:0px;
+  }
+
+  .signUpPage .inputBox{
+    width: 90%;
+  }
+
+
  }
  
  
@@ -432,7 +441,14 @@
  
  @media only screen and (max-width: 1100px) {
  
- 
+   .signUpPage .grid{
+    grid-template-columns: 40% 60%;
+   }
+
+   .signUpPage .icon{
+    width: 100%;
+   }
+
  }
  
  
@@ -443,6 +459,8 @@
   .signUpPage .grid{
      width: 95%;
    }
+
+ 
  
  
   }
@@ -463,6 +481,10 @@
   .signUpPage .grid{
      width: 70%;
      grid-template-columns: 1fr;
+   }
+
+   .signUpPage .inputBox{
+    width: 100%;
    }
  
  }
@@ -526,8 +548,10 @@
  }
  
  
- @media only screen and (max-width: 430px) {
+ @media only screen and (max-width: 450px) {
  
- 
+  .signUpPage .inputgrid{
+    grid-template-columns: 1fr;
+  }
  
  }

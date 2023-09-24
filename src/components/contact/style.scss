@@ -236,7 +236,9 @@ height: 850px;
 
 
 @media only screen and (max-width: 1320px) {
-
+  .contactPage .grid{
+    width: 90%;
+  }
 
 }
 
@@ -327,8 +329,9 @@ height: 850px;
 
 
 
-
-
+  .contactPage .grid{
+    width: 90%;
+  }
 
  
 
@@ -371,7 +374,9 @@ height: 850px;
 
 
 @media only screen and (max-width: 430px) {
-
+  .contactPage .inputBox{
+    background: transparent;
+  }
 
 
 }
