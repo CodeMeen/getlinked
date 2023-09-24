@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState,useRef } from 'react';
 import { Outlet, Link } from "react-router-dom";
 
 
@@ -8,14 +8,28 @@ import '../components/layout/style.scss';
 function Layout(){
 
   const [toggle, setToggle] = useState(false);
+  const header=useRef()
+
+
+  var className = "blur";
+var scrollTrigger = 60;
+
+window.onscroll = function() {
+  // We add pageYOffset for compatibility with IE.
+  if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
+    header.current.classList.add(className);
+  } else {
+    header.current.classList.remove(className);
+  }
+};
+
+
 
     return (
         <>
         <div className="layoutPage">
 
-
-          
-        <div className="header">
+        <div className="header" ref={header}>
 
         <Link to='/'>
           <div className="textlogo" >

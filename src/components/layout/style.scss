@@ -2,6 +2,12 @@
 
 .layoutPage{
     /* Logo And Nav tab */
+
+    .blur{
+      border-bottom:none !important;
+      background:rgba(16,11,32,0.5); 
+    }
+
     .header{
      height: 14.81%;
      width: 100%;
@@ -15,9 +21,6 @@
      left:0;
      right:0;
      z-index: 3;
-     /* background:rgba(16,11,32,0.5); */
-
-    
  
      .textlogo{
        font-family: clash_display_bold;
