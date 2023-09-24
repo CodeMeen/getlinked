@@ -43,7 +43,50 @@ let tm=setInterval(()=>{
 }, speed)
 
 
-return () => clearInterval(tm);
+// Countdown Animation 
+
+let countDownDate = new Date("September 25, 2023 12:00:00").getTime();
+
+
+let cdown= setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  // var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  
+  document.getElementById("hour").innerHTML=hours;
+  document.getElementById("min").innerHTML=minutes;
+  document.getElementById("sec").innerHTML=seconds;
+
+
+  // If the count down is finished
+  if (distance < 0) {
+    clearInterval(cdown);
+
+    document.getElementById("hour").innerHTML="00";
+  document.getElementById("min").innerHTML="00";
+  document.getElementById("sec").innerHTML="00";
+   
+  }
+}, 1000);
+
+
+
+
+
+return () =>{
+  clearInterval(tm);
+  clearInterval(cdown);
+} 
 
   },[])
 

@@ -51,15 +51,15 @@ function Head() {
 
           <div className="timer_container">
             <div>
-              <span className="oo">00</span>
+              <span className="oo" id="hour"></span>
               <span className="oo_t">H</span>
             </div>
             <div>
-              <span className="oo">00</span>
+              <span className="oo" id="min"></span>
               <span className="oo_t">M</span>
             </div>
             <div>
-              <span className="oo">00</span>
+              <span className="oo" id="sec"></span>
               <span className="oo_t">S</span>
             </div>
           </div>
