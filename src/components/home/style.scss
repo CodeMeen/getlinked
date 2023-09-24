@@ -253,10 +253,8 @@
            left:22%;           top:0px;
            opacity: 0.8;
            z-index: -1 !important;
-           animation-name: rotateplus !important;
-      animation-duration: 2s !important;
-     animation-iteration-count: infinite !important;
-     transition: 2s ease;
+          
+     transition: 1.6s ease;
  
            }
 
@@ -264,36 +262,7 @@
          
      
       
-          @keyframes rotateplus {
-
-            0%{
-             
-            }
-
-
-            20%{
-
-            }
-
-
-            40%{
-
-            }
-
-            60%{
-
-            }
-
-            80%{
-
-            }
-
-
-            100%{
-
-            }
-           
-          }
+        
 
 
 

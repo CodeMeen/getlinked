@@ -85,7 +85,7 @@ let circAnim= setInterval(function() {
   
 
 
-},4000)
+},3200)
 
 
 
