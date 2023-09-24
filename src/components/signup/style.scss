@@ -1,6 +1,6 @@
 /* Sign Up Page Stylings */
 .signUpPage{
-     height: 850px;
+
      display: flex;
      justify-content: center;
      align-items: center;
@@ -11,7 +11,7 @@
         margin:0px auto;
         display: grid;
         grid-template-columns:50% 50%;
-        margin-top: 100px;
+        margin-top: 170px;
      } 
 
      .icon{
@@ -154,10 +154,11 @@
     
     
       .st{
-       
+        z-index: -1;
         position: absolute;
         background-repeat: no-repeat;
         background-size: contain;
+        opacity: 0.6;
        }
     
        .starOne{
@@ -504,7 +505,9 @@
  @media only screen and (max-width: 800px) {
  
  
- 
+  .signUpPage .grid{
+    margin-top: 120px;
+  }
  
  
  
@@ -553,5 +556,14 @@
   .signUpPage .inputgrid{
     grid-template-columns: 1fr;
   }
- 
+
+  .signUpPage .inputBox{
+    height: auto;
+  }
+
+  .signUpPage .grid{
+    height: auto;
+    margin-bottom: 100px;
+  }
+
  }
