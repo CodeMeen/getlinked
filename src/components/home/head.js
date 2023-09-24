@@ -24,7 +24,7 @@ function Head() {
 
 
           <div className="textgh">
-            <div className="vb">Igniting a Revolution in HR Innovation</div>
+            <div className="vb" id="typewriter"></div>
             <div className="bentline"></div>
           </div>
          

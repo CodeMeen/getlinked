@@ -3,13 +3,13 @@ import Layout from "./pages/layout";
 import Home from "./pages/home";
 import Contact from "./pages/contact";
 import SignUp from "./pages/signup";
-import { useEffect,useRef } from "react";
+import { useEffect } from "react";
 
 function App() {
 
 
   useEffect(()=>{
-    // variables declarations
+    // Star Animation
 var i;
 var star = document.getElementsByClassName("st").length;
 
@@ -21,6 +21,28 @@ let y = Math.floor(Math.random() * 6);
 
 document.getElementsByClassName("st")[i].style.animationDelay = y + "s";  
 } 
+
+
+// Typewriter Animation
+
+let speed = 60;
+
+let tx = 0;
+let textone = "Igniting a Revolution in HR Innovation";
+
+let tm=setInterval(()=>{
+
+  if(tx < textone.length) {
+
+    document.getElementById("typewriter").innerHTML += textone.charAt(tx);
+    tx++;
+
+  }
+
+}, speed)
+
+
+return () => clearInterval(tm);
 
   },[])
 
