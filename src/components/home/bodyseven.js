@@ -20,16 +20,16 @@ function BodySeven() {
 
 
         <div className="bodytitle">
-            <span className="gtext">Partners and Sponsors</span>
+            <span className="gtext"  data-aos="fade-up">Partners and Sponsors</span>
             <br></br><br/>
-            <span className="rtext">
+            <span className="rtext" data-aos="fade-up">
             Getlinked Hackathon 1.0 is honored to have the following major <br/>
 companies as its partners and sponsors
             </span>
           </div>
 
 
-          <div className="sponsors_border">
+          <div className="sponsors_border" data-aos="flip-down">
              <div className="sponsors">
                
                <div className="gridpack">

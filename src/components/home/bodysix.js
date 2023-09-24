@@ -21,7 +21,7 @@ function BodySix() {
 
         </div>
 
-        <div className="kbox">
+        <div className="kbox" data-aos="fade-left">
           <div className="title_text">
             <span className="gtext">Prizes and</span>
             <br />
@@ -36,9 +36,9 @@ function BodySix() {
         </div>
 
         <div className="illu_box">
-          <div className="icon cup"></div>
+          <div className="icon cup" data-aos="fade-right"></div>
 
-          <div className="medal_stage">
+          <div className="medal_stage" data-aos="flip-down">
             <div className="each_stage">
               
                 <div className="medal secondmedal"></div>

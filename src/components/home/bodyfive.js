@@ -11,9 +11,9 @@ function BodyFive() {
 
         <div className="divy">
           <div className="bodytitle">
-            <span className="gtext">Timeline</span>
+            <span className="gtext" data-aos="fade-up">Timeline</span>
             <br></br><br/>
-            <span className="rtext">
+            <span className="rtext" data-aos="fade-up">
               Here is the breakdown of the time we anticipate <br />
               using for the upcoming event.
             </span>
@@ -22,8 +22,8 @@ function BodyFive() {
           <div className="de_grid">
             {/* One */}
 
-            <div className="textshii one">
-              <span className="gtext colortext">Hackathon Announcement</span>
+            <div className="textshii one" data-aos="fade-left">
+              <span className="gtext colortext" >Hackathon Announcement</span>
               <br />
               <br />
               <span className="rtext">
@@ -32,25 +32,25 @@ function BodyFive() {
               </span>
             </div>
 
-            <div className="each_line">
+            <div className="each_line" data-aos="fade-up">
               <div className="circ firstcirc">1</div>
             </div>
 
-            <div className="textshii two">
+            <div className="textshii two" data-aos="fade-right">
               <span className="gtext colortext">November 18, 2023</span>
             </div>
 
             {/* Two */}
 
-            <div className="textshii one">
+            <div className="textshii one" data-aos="fade-left">
               <span className="gtext colortext">November 18, 2023</span>
             </div>
 
-            <div className="each_line">
+            <div className="each_line" data-aos="fade-up">
               <div className="circ">2</div>
             </div>
 
-            <div className="textshii two">
+            <div className="textshii two" data-aos="fade-right">
               <span className="gtext colortext">Teams Registration begins</span>
               <br />
               <br />
@@ -62,7 +62,7 @@ function BodyFive() {
 
             {/* Three */}
 
-            <div className="textshii one">
+            <div className="textshii one" data-aos="fade-left">
               <span className="gtext colortext">Teams Registration ends</span>
               <br />
               <br />
@@ -71,25 +71,25 @@ function BodyFive() {
               </span>
             </div>
 
-            <div className="each_line">
+            <div className="each_line" data-aos="fade-up">
               <div className="circ">3</div>
             </div>
 
-            <div className="textshii two">
+            <div className="textshii two" data-aos="fade-right">
               <span className="gtext colortext">November 18, 2023</span>
             </div>
 
             {/* Four */}
 
-            <div className="textshii one">
+            <div className="textshii one" data-aos="fade-left">
               <span className="gtext colortext">November 18, 2023</span>
             </div>
 
-            <div className="each_line">
+            <div className="each_line" data-aos="fade-up">
               <div className="circ">4</div>
             </div>
 
-            <div className="textshii two">
+            <div className="textshii two" data-aos="fade-right">
               <span className="gtext colortext">
                 Announcement of the accepted teams and ideas
               </span>
@@ -103,7 +103,7 @@ function BodyFive() {
 
             {/* Five */}
 
-            <div className="textshii one">
+            <div className="textshii one" data-aos="fade-left">
               <span className="gtext colortext">
                 Getlinked Hackathon 1.0 Offically Begins
               </span>
@@ -115,25 +115,25 @@ function BodyFive() {
               </span>
             </div>
 
-            <div className="each_line">
+            <div className="each_line" data-aos="fade-up">
               <div className="circ">5</div>
             </div>
 
-            <div className="textshii two">
+            <div className="textshii two"data-aos="fade-right">
               <span className="gtext colortext">November 18, 2023</span>
             </div>
 
             {/* Six */}
 
-            <div className="textshii one">
+            <div className="textshii one" data-aos="fade-left">
               <span className="gtext colortext">November 18, 2023</span>
             </div>
 
-            <div className="each_line">
+            <div className="each_line" data-aos="fade-up">
               <div className="circ lastcirc">6</div>
             </div>
 
-            <div className="textshii two">
+            <div className="textshii two" data-aos="fade-right">
               <span className="gtext colortext">Demo Day</span>
               <br />
               <br />
@@ -146,11 +146,11 @@ function BodyFive() {
 
           <div className="de_grid_mobile">
             
-          <div className="each_line">
+          <div className="each_line" data-aos="fade-up">
               <div className="circ firstcirc">1</div>
             </div>
 
-            <div className="textshii one">
+            <div className="textshii one" data-aos="fade-up">
               <span className="gtext colortext">Hackathon Announcement</span>
               <br />
               <br />
@@ -165,11 +165,11 @@ function BodyFive() {
 
 
 
-            <div className="each_line">
+            <div className="each_line" data-aos="fade-up">
               <div className="circ firstcirc">2</div>
             </div>
 
-            <div className="textshii one">
+            <div className="textshii one" data-aos="fade-up">
               <span className="gtext colortext">Hackathon Announcement</span>
               <br />
               <br />
@@ -186,11 +186,11 @@ function BodyFive() {
 
 
 
-            <div className="each_line">
+            <div className="each_line" data-aos="fade-up">
               <div className="circ firstcirc">3</div>
             </div>
 
-            <div className="textshii one">
+            <div className="textshii one" data-aos="fade-up">
               <span className="gtext colortext">Hackathon Announcement</span>
               <br />
               <br />
@@ -205,11 +205,11 @@ function BodyFive() {
 
 
 
-            <div className="each_line">
+            <div className="each_line" data-aos="fade-up">
               <div className="circ firstcirc">4</div>
             </div>
 
-            <div className="textshii one">
+            <div className="textshii one" data-aos="fade-up">
               <span className="gtext colortext">Hackathon Announcement</span>
               <br />
               <br />
@@ -224,11 +224,11 @@ function BodyFive() {
 
 
 
-            <div className="each_line">
+            <div className="each_line" data-aos="fade-up">
               <div className="circ firstcirc">5</div>
             </div>
 
-            <div className="textshii one">
+            <div className="textshii one" data-aos="fade-up">
               <span className="gtext colortext">Hackathon Announcement</span>
               <br />
               <br />
@@ -243,11 +243,11 @@ function BodyFive() {
 
 
 
-            <div className="each_line">
+            <div className="each_line" data-aos="fade-up">
               <div className="circ firstcirc">6</div>
             </div>
 
-            <div className="textshii one">
+            <div className="textshii one" data-aos="fade-up">
               <span className="gtext colortext">Hackathon Announcement</span>
               <br />
               <br />

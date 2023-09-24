@@ -28,23 +28,23 @@ function BodyEight() {
 
 <div className="kbox">
           <div className="title_text">
-            <span className="gtext">Privacy Policy and</span>
+            <span className="gtext" data-aos="fade-up">Privacy Policy and</span>
             <br />
-            <span className="gtext colortext">Terms</span>
+            <span className="gtext colortext" data-aos="fade-up">Terms</span>
             <br />
             <br />
-            <span className="rtext dim">
+            <span className="rtext dim" data-aos="fade-up">
              Last updated on September 12,2023
             </span>
             <br />
             <br />
-            <span className="rtext">
+            <span className="rtext" data-aos="fade-up"> 
             Below are our privacy & policy, which outline a lot of goodies. 
             it's our aim to always take of our participant
             </span>
           </div>
 
-          <div className="others">
+          <div className="others" data-aos="fade-up">
           <div className="rtext">
       At getlinked tech Hackathon 1.0, we value your privacy
 and are committed to protecting your personal information.<br/> &nbsp;&nbsp;
@@ -88,7 +88,7 @@ sites, for your project development</div>
 </div>
 
 
-<div className="image_box">
+<div className="image_box" data-aos="fade-up">
   
 </div>
 
