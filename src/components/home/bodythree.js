@@ -16,19 +16,19 @@ function BodyThree() {
         </div>
 
         <div className="boxContainer">
-          <div className="icon people"></div>
+          <div className="icon people" data-aos="fade-right"></div>
 
           <div className="textspace">
             <div>
-              <span className="gtext">Judging Criteria</span>
+              <span className="gtext" data-aos="fade-up">Judging Criteria</span>
               <br />
-              <span className="gtext colortext">Key attributes</span>
+              <span className="gtext colortext" data-aos="fade-up">Key attributes</span>
 
               <br />
               <br />
 
               <div className="textgrid">
-                <div className="rtext">
+                <div className="rtext" data-aos="fade-left">
                   <span className="colortexttwo">
                     Innovation and Creativity:
                   </span>{" "}
@@ -37,14 +37,14 @@ function BodyThree() {
                   way or introduces innovative features.
                 </div>
 
-                <div className="rtext">
+                <div className="rtext" data-aos="fade-left">
                   <span className="colortexttwo">Functionality:</span> Assess
                   how well the solution works. Does it perform its intended
                   functions effectively and without major issues? Judges would
                   consider the completeness and robustness of the solution.
                 </div>
 
-                <div className="rtext">
+                <div className="rtext" data-aos="fade-left">
                   <span className="colortexttwo">Impact and Relevance:</span>{" "}
                   Determine the potential impact of the solution in the real
                   world. Does it address a significant problem, and is it
@@ -52,7 +52,7 @@ function BodyThree() {
                   potential social, economic, or environmental benefits.
                 </div>
 
-                <div className="rtext">
+                <div className="rtext" data-aos="fade-left">
                   <span className="colortexttwo">Technical Complexity:</span>{" "}
                   Evaluate the technical sophistication of the solution. Judges
                   would consider the complexity of the code, the use of advanced
@@ -60,7 +60,7 @@ function BodyThree() {
                   solution.
                 </div>
 
-                <div className="rtext">
+                <div className="rtext" data-aos="fade-left">
                   <span className="colortexttwo">
                     Adherence to Hackathon Rules:
                   </span>{" "}

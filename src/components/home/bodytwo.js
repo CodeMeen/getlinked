@@ -35,7 +35,7 @@ function BodyTwo() {
             </div>
           </div>
 
-          <div className="icon sitting"></div>
+          <div className="icon sitting" data-aos="fade-right"></div>
         </div>
       </div>
       

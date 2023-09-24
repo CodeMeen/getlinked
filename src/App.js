@@ -4,7 +4,7 @@ import Home from "./pages/home";
 import Contact from "./pages/contact";
 import SignUp from "./pages/signup";
 import { useEffect } from "react";
-
+import Aos from 'aos';
 
 function App() {
 

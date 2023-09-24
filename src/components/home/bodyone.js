@@ -10,7 +10,7 @@ function BodyOne() {
         </div>
 
         <div className="boxContainer">
-          <div className="icon thebigidea"></div>
+          <div className="icon thebigidea" data-aos="fade-right"></div>
 
           <div className="textspace">
             <div>
