@@ -1,4 +1,11 @@
-
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--dark) !important;
+    font-family: montserrat_regular;
+    overflow-x: hidden !important;
+  }
 
 
 

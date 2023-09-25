@@ -509,7 +509,15 @@
     margin-top: 120px;
   }
  
+
+  .signUpPage .gradientOne{
+    width: 100%;
+  }
  
+
+  .signUpPage .gradientTwo{
+    width: 100%;
+  }
  
   
  
@@ -546,6 +554,15 @@
  
   .signUpPage .inputBox .mid{
      width:90%;
+   }
+   .signUpPage .gradientOne{
+    right:-100px;
+  background-size: contain;
+   }
+
+   .signUpPage .gradientTwo{
+  right:-130px;
+  background-size: contain;
    }
  
  }

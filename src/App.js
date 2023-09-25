@@ -23,7 +23,7 @@ var star = document.getElementsByClassName("st").length;
 for (i = 0; i < star; i++) {
 
 let y = Math.floor(Math.random() * 8);
-let sp= Math.floor(Math.random() * 4);
+// let sp= Math.floor(Math.random() * 4);
 
 document.getElementsByClassName("st")[i].style.animationDelay = y + "s";  
 // document.getElementsByClassName("st")[i].style.animationDuration = sp + "s";  
