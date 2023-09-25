@@ -4,7 +4,7 @@ import "../components/signup/style.scss";
 function SignUp() {
 
 
-  const [formData, setFormData] = useState({groupname: "",phone: "",email: "",project_topic: "",category: "",groupsize: "",tc: ""});
+  const [formData, setFormData] = useState({groupname: "",phone: "",email: "",project_topic: "",category: "",groupsize: "",tc: false});
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -13,7 +13,7 @@ function SignUp() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // alert(`Name: ${formData.name}, Email: ${formData.email}, Message: ${formData.message}`
+    console.log(formData)
     // );
 };
 
